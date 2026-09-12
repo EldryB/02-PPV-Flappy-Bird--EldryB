@@ -96,6 +96,7 @@ SOUNDS = {
     "hurt": pygame.mixer.Sound(BASE_DIR / "assets" / "sounds" / "hurt.wav"),
     "score": pygame.mixer.Sound(BASE_DIR / "assets" / "sounds" / "score.wav"),
     "power_up": pygame.mixer.Sound(BASE_DIR / "assets" / "sounds" / "power_up.wav"),
+    "close": pygame.mixer.Sound(BASE_DIR / "assets" / "sounds" / "close.wav"),
 }
 
 pygame.mixer.music.load(BASE_DIR / "assets" / "sounds" / "marios_way.ogg")

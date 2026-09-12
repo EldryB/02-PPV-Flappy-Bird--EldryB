@@ -45,7 +45,8 @@ class LogPair:
         self.timer += dt
         self.x += -settings.MAIN_SCROLL_SPEED * dt
         if(self.hard and self.timer >= 1.5 and self.is_open == True):
-            Timer.tween(0.2, [(self, {"current_gap": 0})])
+            
+            Timer.tween(0.2, [(self, {"current_gap": 0})], on_finish=lambda:settings.SOUNDS["close"].play())
             self.timer = 0.0
             self.is_open = False
             
