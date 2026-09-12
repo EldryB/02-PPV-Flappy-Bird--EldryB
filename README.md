@@ -13,3 +13,5 @@ Modo Difícil: Aumenta la dificultad mediante características dinámicas. Permi
 Power-Ups (Patrón Factory): Se introdujo un power-up aleatorio que otorga inmunidad temporal (efecto fantasma), permitiendo atravesar los troncos. Al recogerlo, cambia la música del juego, retornando a la normalidad al expirar el efecto.
 
 Tambien fue añadida la tecla L para saltar. Se configuraron las colisiones con techo, piso y paredes. El pajaro al tocar algun limite muere, impidiendo algun bug en la movilidad. La inmunidad del power-up NO AFECTA la muerte por choque de estos limites.
+
+La diferencia en Y entre un par de troncos es minimo 72px, seleccionado arbitrariamente. Con este minimo, se selecciona aletoriamente un multimplicador y del cual va a depender la distancia en X. El power-up dura 7.5 segundos activo. Los troncos que se cierran, duran 0.2 segundos cerrando/abriendo y duran 1.5 segundos abiertos y 0.5 segundos cerrado.
