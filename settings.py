@@ -60,7 +60,7 @@ GRAVITY = 980
 JUMP_TAKEOFF_SPEED = GRAVITY / 6
 
 TIME_TO_SPAWN_LOGS = 1.5
-MIN_TIME_TO_SPAWN_LOGS = 130
+MIN_TIME_TO_SPAWN_LOGS = 150
 MAX_TIME_TO_SPAWN_LOGS = 650
 
 # Vertical range a log pair's top-log y may take (see World.update). The
