@@ -1,4 +1,4 @@
-import random # <-- No olvides importar random
+import random 
 import pygame
 
 from gale.input_handler import InputData
